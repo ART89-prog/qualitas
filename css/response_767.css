@@ -1,8 +1,5 @@
 @media print, (max-width: 767px) {
 
-    /* :root {
-        --font_size_title: 30px;
-    }    */
 
     .header_phone {
         margin-right: auto;
@@ -124,7 +121,35 @@
     .service_items > * {
         padding: 13px 20px 13px 20px;
     }
-
+    .modal {
+        padding: 50px 20px 20px;
+    }
+    .is-compact .fancybox__content>.f-button.is-close-btn {
+        top: 0px;
+        right: 0px;
+    }
+    .modal h2 {
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    .modal p,
+    .modal ol li,
+    .modal ul li {
+        font-size: 15px;
+    }
+    .modal ol,
+    .modal ul,
+    .modal p {
+        margin-bottom: 20px;
+    }
+    .modal .swiper-slide img {
+        margin-bottom: 15px;
+    }
+    .modal h1 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
 
 
 

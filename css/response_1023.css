@@ -1,9 +1,6 @@
 @media print, (max-width: 1023px) {
  
-    /* :root {
-        --font_size: 18px;
-        --font_size_title: 32px;
-    }    */
+
 
     header .mob_menu_btn {
         display: flex;
@@ -54,7 +51,7 @@
     header .menu .item > a {
         display: block;
         height: auto;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         text-align: center;
         color: #000;
         border-bottom: none;

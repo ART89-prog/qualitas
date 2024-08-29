@@ -160,7 +160,7 @@ $(() => {
   var swiper = new Swiper(".modal .swiper", {
 
     slidesPerView: 1,
-    spaceBetween: 10,
+    spaceBetween: 0,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -168,15 +168,15 @@ $(() => {
     breakpoints: {
       320: {
         slidesPerView: 1,
-        spaceBetween: 20
+        spaceBetween: 0
       },
       480: {
         slidesPerView: 1,
-        spaceBetween: 30
+        spaceBetween: 0
       },
       640: {
         slidesPerView: 1,
-        spaceBetween: 40
+        spaceBetween: 0
       }
     }
   });
