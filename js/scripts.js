@@ -143,6 +143,30 @@ $(() => {
   });
 
 
+  var swiper = new Swiper(".modal .swiper", {
+
+    slidesPerView: 1,
+    spaceBetween: 10,    
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 30
+      },
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      }
+    }
+  });
+
 
 
 
