@@ -1,7 +1,21 @@
 @media (max-width: 479px) {
 
- 
-
+    .header_phone {
+        font-size: 20px;
+    }
+    .header_logo {
+        width: 46px;
+        height: 50px;
+    }
+    header {
+        padding: 15px 0;
+    }
+    header .menu {
+        top: 70px;
+    }
+    .cont {
+        padding: 0 15px;
+    }
 
 
    

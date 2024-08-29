@@ -45,7 +45,7 @@ $(() => {
     let id = $(this).attr("href");
 
     $("html, body").animate({
-      scrollTop: $(id).offset().top - 0
+      scrollTop: $(id).offset().top - 90
     }, {
       duration: 400,
       easing: "swing"
@@ -141,7 +141,7 @@ $(() => {
         spaceBetween: 20
       },
       480: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 20
       },
       767: {
@@ -208,7 +208,7 @@ $(() => {
       if (!fakeResize2) {
         fakeResize2 = true
 
-        if (windowW < 390) document.getElementsByTagName('meta')['viewport'].content = 'width=390, user-scalable=no'
+        if (windowW < 360) document.getElementsByTagName('meta')['viewport'].content = 'width=360, user-scalable=no'
       } else {
         fakeResize = false
         fakeResize2 = true
