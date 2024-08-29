@@ -66,12 +66,6 @@ $(() => {
   })
 
 
-  Fancybox.bind('[data-fancybox="gallery"]', {});
-  Fancybox.bind('[data-fancybox="gallery1"]', {});
-  Fancybox.bind('[data-fancybox="gallery2"]', {});
-  Fancybox.bind('[data-fancybox="gallery3"]', {});
-  Fancybox.bind('[data-fancybox="gallery4"]', {});
-  Fancybox.bind('[data-fancybox="gallery5"]', {});
 
   // Fancybox
   Fancybox.defaults.autoFocus = false
@@ -86,10 +80,10 @@ $(() => {
   }
 
   Fancybox.defaults.template = {
-    // closeButton: '<img src=images/close.png>',
+    // closeButton: '<img src=images/close_menu.svg>',
     // 	spinner: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="25 25 50 50" tabindex="-1"><circle cx="50" cy="50" r="20"/></svg>',
     // 	main: null
-    closeButton: `<button data-fancybox-close class="f-button is-close-btn" title="Закрыть"><img src=images/close.svg></button>`
+    closeButton: '<button data-fancybox-close class="f-button is-close-btn" title="Закрыть"><img src=images/close_menu.svg></button>'
   }
 
 
