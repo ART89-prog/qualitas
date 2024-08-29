@@ -44,7 +44,7 @@
 	<body>
 		<div class="wrap">
 			<div class="main">
-				<header>									
+				<header class="header">									
 					<div class="cont">														
 						<div class="header_wrap">							
 							<a href="#" class="header_logo">
@@ -53,19 +53,19 @@
 							
 							<nav class="menu">							
 								<div class="item">
-									<a href="service.html">Про нас</a>
+									<a href="#about" class="scroll">Про нас</a>
 								</div>
 								<div class="item">
-									<a href="about.html">Послуги</a>
+									<a href="#service" class="scroll">Послуги</a>
 								</div>
 								<div class="item">
-									<a href="work.html">Наші переваги</a>
+									<a href="#advantages" class="scroll">Наші переваги</a>
 								</div>
 								<div class="item">
-									<a href="news.html" >Новини</a>
+									<a href="#news" class="scroll">Новини</a>
 								</div>
 								<div class="item">
-									<a href="contacts.html">Контакти</a>
+									<a href="#contact" class="scroll">Контакти</a>
 								</div>												
 							</nav>		
 						
@@ -93,7 +93,7 @@
 				</section>
 
 
-				<section class="about block">
+				<section class="about block" id="about">
 					<div class="cont">
 						<div class="about_wrap">
 							<div class="about_info">
@@ -105,7 +105,7 @@
 								</div>
 							</div>
 							<div class="about_img">
-								<img src="images/about_img.png" alt="">
+								<img data-src="images/about_img.png" alt="" class="lozad">
 							</div>
 						</div>
 					</div>
@@ -113,12 +113,12 @@
 
 
 
-				<section class="service">
+				<section class="service" id="service">
 					<div class="cont">
 						<div class="service_title title">послуги</div>
 						<div class="service_items">
 							<div class="service_item">
-								<div class="service_item-title title">Податкове право</div>
+								<div class="service_item-title">Податкове право</div>
 								<a href="#" class="service_item-btn modal_link" data-content="modal"></a>
 							</div>
 							<div class="service_item">
@@ -159,48 +159,48 @@
 
 
 
-				<section class="advantages block">
+				<section class="advantages block" id="advantages">
 					<div class="cont">
 						<div class="advantages_title title">чому саме ми</div>
 						<div class="advantages_items">
 							<div class="advantages_item">
 								<div class="advantages_item_icon">
-									<img src="images/advantages1.svg" alt="">
+									<img data-src="images/advantages1.svg" alt="" class="lozad">
 								</div>
 								<div class="advantages_item_title">Команда</div>
 								<div class="advantages_item_text">Над проєктами працюють профільні юристи та адвокати, з чіткою спеціалізацією та досвідом роботи в податковій та інших сферах понад 20 років</div>
 							</div>
 							<div class="advantages_item">
 								<div class="advantages_item_icon">
-									<img src="images/advantages2.svg" alt="">
+									<img data-src="images/advantages2.svg" alt="" class="lozad">
 								</div>
 								<div class="advantages_item_title">Результат</div>
 								<div class="advantages_item_text">Завжди досягаємо необхідного результату для клієнтів – наша головна мета компанії</div>
 							</div>
 							<div class="advantages_item">
 								<div class="advantages_item_icon">
-									<img src="images/advantages3.svg" alt="">
+									<img data-src="images/advantages3.svg" alt="" class="lozad">
 								</div>
 								<div class="advantages_item_title">Час</div>
 								<div class="advantages_item_text">Чітке планування та дотримання строків заощаджує час клієнтів</div>
 							</div>
 							<div class="advantages_item">
 								<div class="advantages_item_icon">
-									<img src="images/advantages4.svg" alt="">
+									<img data-src="images/advantages4.svg" alt="" class="lozad">
 								</div>
 								<div class="advantages_item_title">Конфіденційність</div>
 								<div class="advantages_item_text">При побажанні клієнта можемо розробити та заключити договір про конфіденційність, що дає гарантію безпеки інформації клієнтів</div>
 							</div>
 							<div class="advantages_item">
 								<div class="advantages_item_icon">
-									<img src="images/advantages5.svg" alt="">
+									<img data-src="images/advantages5.svg" alt="" class="lozad">
 								</div>
 								<div class="advantages_item_title">Лояльність</div>
 								<div class="advantages_item_text">Політика компанії дозволяє бути гнучкими для наших клієнтів у питаннях ціноутворення</div>
 							</div>
 							<div class="advantages_item">
 								<div class="advantages_item_icon">
-									<img src="images/advantages6.svg" alt="">
+									<img data-src="images/advantages6.svg" alt="" class="lozad">
 								</div>
 								<div class="advantages_item_title">Комплексність</div>
 								<div class="advantages_item_text">Комплексний супровід процесів «під ключ» дозволяє досягти необхідних результатів</div>
@@ -211,7 +211,7 @@
 
 
 
-				<section class="news block">
+				<section class="news block" id="news">
 					<div class="cont">
 						<div class="news_head">
 							<h2 class="news_title title">новини</h2>
@@ -276,31 +276,31 @@
 
 
 
-				<section class="contact">
+				<section class="contact" id="contact">
 					<div class="cont">
 						<div class="contact_title title">контакти</div>
 						<div class="contact_items">
 							<div class="contact_item">
 								<div class="contact_item-icon">
-									<img src="images/contact1.svg" alt="">
+									<img data-src="images/contact1.svg" alt="" class="lozad">
 								</div>
 								<div class="contact_item-text">м. Дніпро, пр. Дмитра Яворницького, 49</div>
 							</div>
 							<a href="tel:+380966797647" class="contact_item">
 								<div class="contact_item-icon">
-									<img src="images/contact2.svg" alt="">
+									<img data-src="images/contact2.svg" alt="" class="lozad">
 								</div>
 								<div class="contact_item-text">+38 096 679 76 47</div>
 							</a>
 							<a href="mailto:office.kvalitas@gmail.com" class="contact_item">
 								<div class="contact_item-icon">
-									<img src="images/contact3.svg" alt="">
+									<img data-src="images/contact3.svg" alt="" class="lozad">
 								</div>
 								<div class="contact_item-text">office.kvalitas@gmail.com</div>
 							</a>
 							<a href="https://instagram.com/qualitas.law.firm/" class="contact_item">
 								<div class="contact_item-icon">
-									<img src="images/contact4.svg" alt="">
+									<img data-src="images/contact4.svg" alt="" class="lozad">
 								</div>
 								<div class="contact_item-text">qualitas.law.firm</div>
 							</a>
@@ -416,7 +416,7 @@
 		<script src="js/jquery-3.5.0.min.js"></script>
 		<script src="js/swiper-bundle.min.js"></script>
 		<script src="js/fancybox.js"></script>
-		<script src="js/imask.js"></script>
+		<script src="js/lozad.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
 		

@@ -45,14 +45,23 @@ $(() => {
     let id = $(this).attr("href");
 
     $("html, body").animate({
-      scrollTop: $(id).offset().top - 80
+      scrollTop: $(id).offset().top - 0
     }, {
       duration: 400,
       easing: "swing"
     });
   });
 
+  // Ленивая загрузка
+  setTimeout(() => {
+    observer = lozad('.lozad', {
+      rootMargin: '200px 0px',
+      threshold: 0,
+      loaded: (el) => el.classList.add('loaded')
+    })
 
+    observer.observe()
+  }, 200)
 
 
   $('body').on('click', '.modal_link', function (e) {
@@ -128,25 +137,30 @@ $(() => {
     },
     breakpoints: {
       320: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 20
       },
       480: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      767: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      1023: {
         slidesPerView: 3,
         spaceBetween: 30
-      },
-      640: {
-        slidesPerView: 3,
-        spaceBetween: 40
       }
     }
   });
 
 
+
   var swiper = new Swiper(".modal .swiper", {
 
     slidesPerView: 1,
-    spaceBetween: 10,    
+    spaceBetween: 10,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
