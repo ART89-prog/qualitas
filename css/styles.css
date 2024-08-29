@@ -349,6 +349,12 @@ img {
 
 header {
     padding: 30px 0;
+    padding: 30px 0;
+    position: fixed;
+    width: 100%;
+    transition: 0.3s;
+    z-index: 100;
+    background: #fff;
 }
 .header_fixed {
     background: #F8F3EA;
@@ -449,6 +455,9 @@ header .menu .item:active>a {
 
 
 
+.first-section {
+    margin-top: 130px;
+}
 .first-section .cont {
     max-width: 1820px;
 }
@@ -535,6 +544,10 @@ header .menu .item:active>a {
     min-height: 90px;
     position: relative;
     z-index: 0;
+    transition: all 0.3s;
+}
+.service_item:hover {
+    border: 2px solid #B48627;
 }
 .service_item::before {
     counter-increment: section;
@@ -982,7 +995,6 @@ footer {
 .modal p:last-child {
     margin-bottom: 90px;
 }
-
 
 
 

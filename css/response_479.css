@@ -10,11 +10,17 @@
     header {
         padding: 15px 0;
     }
+    .header_fixed {
+        padding: 15px 0;
+    }
     header .menu {
         top: 70px;
     }
     .cont {
         padding: 0 15px;
+    }
+    .first-section {
+        margin-top: 80px;
     }
 
 
