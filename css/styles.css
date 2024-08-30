@@ -338,7 +338,9 @@ img {
 .supports_error.show {
     display: flex;
 }
-
+body.menu_open {
+    overflow: hidden;
+}
 
 
 
